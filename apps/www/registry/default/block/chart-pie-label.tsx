@@ -66,7 +66,7 @@ export default function Component() {
           config={chartConfig}
           className="mx-auto aspect-square max-h-[250px] pb-0 [&_.recharts-pie-label-text]:fill-foreground"
         >
-          <PieChart>
+          <PieChart width={250} height={250}>
             <ChartTooltip content={<ChartTooltipContent hideLabel />} />
             <Pie data={chartData} dataKey="visitors" label nameKey="browser" />
           </PieChart>

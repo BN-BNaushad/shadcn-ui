@@ -64,7 +64,7 @@ export default function Component() {
           config={chartConfig}
           className="mx-auto aspect-square max-h-[300px]"
         >
-          <PieChart>
+          <PieChart width={300} height={300}>
             <Pie data={chartData} dataKey="visitors" />
             <ChartLegend
               content={<ChartLegendContent nameKey="browser" />}
