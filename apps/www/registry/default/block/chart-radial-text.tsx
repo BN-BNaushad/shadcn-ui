@@ -53,6 +53,8 @@ export default function Component() {
             endAngle={250}
             innerRadius={80}
             outerRadius={110}
+            width={250}
+            height={250}
           >
             <PolarGrid
               gridType="circle"

@@ -66,7 +66,13 @@ export default function Component() {
           config={chartConfig}
           className="mx-auto aspect-square max-h-[250px]"
         >
-          <RadialBarChart data={chartData} innerRadius={30} outerRadius={100}>
+          <RadialBarChart
+            data={chartData}
+            innerRadius={30}
+            outerRadius={100}
+            width={250}
+            height={250}
+          >
             <ChartTooltip
               cursor={false}
               content={<ChartTooltipContent hideLabel nameKey="browser" />}

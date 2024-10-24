@@ -52,6 +52,8 @@ export default function Component() {
             endAngle={180}
             innerRadius={80}
             outerRadius={130}
+            width={250}
+            height={250}
           >
             <ChartTooltip
               cursor={false}
